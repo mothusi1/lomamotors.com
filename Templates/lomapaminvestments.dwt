@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>Lomapam Investments</title>
+	<!-- TemplateEndEditable -->
+	<!-- Bootstrap -->
+	<link href="../FinalLomaMotors/css/bootstrap-4.3.1.css" rel="stylesheet">
+	<link href="../FinalLomaMotors/LIDesign.css" rel="stylesheet" type="text/css">
+  <!-- TemplateBeginEditable name="head" -->
+  <!-- TemplateEndEditable -->
+  </head>
+  <body>
+  	<!-- body code goes here -->
+<div class="container-fluid">
+    <!-- TemplateBeginEditable name="navbar" -->
+	  <div class="row">
+	    <div class="col-sm-12">
+	      <nav class="navbar fixed-top navbar-expand-lg navbar-light"> <a class="navbar-brand" href="#"><img src="../FinalLomaMotors/images/logo.png" width="50" height="50" alt="Lomapam Investments logo" class="d-inline-block align-top"/></a>
+	        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
+	        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+	          <ul class="navbar-nav ml-auto nav-justified">
+	            <li class="nav-item"> <a class="nav-link active text-white" href="../FinalLomaMotors/index.html">Home</a></li>
+	            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle text-white" href="../FinalLomaMotors/about_us.html" id="navbarDropdown!" role=" nav-item button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+	              <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item text-white" href="../FinalLomaMotors/about_us.html">Us</a> <a class="dropdown-item text-white" href="../FinalLomaMotors/staff.html">Our Team</a> </div>
+	              <!-- can add services in this drop section as well-->
+                </li>
+	            <li class="nav-item"><a class="nav-link text-white" href="../FinalLomaMotors/order-form.html">Order&nbsp;form</a></li>
+	            <li class="nav-item"> <a class="nav-link text-white" href="../FinalLomaMotors/testimonials.html">Testimonies</a></li>
+	            <li class="nav-item"> <a class="nav-link text-white" href="../FinalLomaMotors/contact_us.html">Contact</a></li>
+	            <!-- <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown </a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
+						  <div class="dropdown-divider"></div>
+						  <a class="dropdown-item" href="#">Something else here</a> </div>
+					  </li>-->
+	            <!--<li class="nav-item"> <a class="nav-link disabled" href="#">Disabled</a> </li>-->
+              </ul>
+            </div>
+          </nav>
+        </div>
+    </div>
+  <!-- TemplateEndEditable -->
+    <!-- TemplateBeginEditable name="openingimage" -->
+    <section class="row">
+      <div class="col-sm-12"> <img src="../FinalLomaMotors/images/headerimage2.png" class="img-fluid" alt="Semi Truck on open road"> </div>
+    </section>
+    <!-- TemplateEndEditable -->
+<footer class="row">
+		  <div class="col-md-12"><p>&copy; 2020 Lomapam Investments (PTY) LTD.</p></div>
+	
+		  <div id="social-media">
+					<a href="https://www.facebook.com/mothusi.dlamini" class="fa fa-facebook fa-2x"></a> 
+					<a href="https://www.instagram.com" class="fa fa-instagram fa-2x"></a> 
+					<a href="../FinalLomaMotors/www.twitter.com" class="fa fa-twitter-square fa-2x"></a> 
+		  </div>	
+	  </footer>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="../FinalLomaMotors/js/jquery-3.3.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="../FinalLomaMotors/js/popper.min.js"></script> 
+	<script src="../FinalLomaMotors/js/bootstrap-4.3.1.js"></script>
+	<script src="https://kit.fontawesome.com/80dc4e7e57.js" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+	<!-- Change color on scroll -->
+	  <script>
+	  
+	  	$(window).scroll(function(){
+			$('nav').toggleClass('scrolled',$(this).scrollTop()>200);
+		});
+
+		  $(document).ready(function(){
+			$('.customer-logos').slick({
+				slidesToShow: 6,
+				slidesToScroll: 1,
+				autoplay: true,
+				autoplaySpeed: 1500,
+				arrows: false,
+				dots: false,
+				pauseOnHover: false,
+				responsive: [{
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 4
+					}
+				}, {
+					breakpoint: 520,
+					settings: {
+						slidesToShow: 3
+					}
+				}]
+			});
+		});
+	  </script>
+</body>
+</html>
